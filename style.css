@@ -1,0 +1,199 @@
+
+body{
+  background-size: 100%;
+  background-image: url(background.avif)
+  
+  
+}
+
+.container-BOX1{
+  background-color: #22a579c2;
+}
+.ul-BOX1 {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 11px 11px 11px lightblue;
+}
+
+.li-BOX1 {
+  list-style-type: none;
+  padding: 20px ;
+  margin: 5px ;
+  font-size: 30px;
+}
+
+.li-BOX1:hover {
+background-color: #ffffff13;  
+transition: .2s ease-in-out;
+transition-delay: .3s;
+border-radius: 8px;
+}
+.a-BOX1{
+color: white;
+text-decoration: none;
+}
+
+.container-BOX2{
+  background-color: #031a304b;}
+  
+.ul-BOX2 {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 11px 11px 11px rgba(4, 79, 104, 0.397);
+}
+
+.li-BOX2 {
+  border: 1px solid black;
+  background-color: rgba(2, 37, 37, 0.24);
+  color: #ffffff;
+  list-style-type: none;
+  padding: 20px ;
+  margin: 5px ;
+  box-shadow: 1px 10px 10px lightblue;
+}
+.li-BOX2:hover {
+  background-color: #ffffff13;  
+  transition: .2s ease-in-out;
+  transition-delay: .3s;
+  border-radius: 8px;
+  }
+
+  .a2{
+    color: white;
+    text-decoration: none;
+  }
+
+.container-content {
+  display: flex;
+  width: 1342,5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.artikel{
+  text-align: justify;
+color: #ffffff;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.jaringan-kompute{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the profile image */
+.profil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 200px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for the Instagram icon */
+.ig {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 92px; /* Adjust as needed */
+  height: 72px; /* Adjust as needed */
+}
+
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navigation styling */
+.ul-Box1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li-Box1 {
+    float: left;
+}
+
+
+
+
+/* Main content styling */
+.artikel {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.artikel h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.artikel h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.artikel p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.artikel h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.artikel h5 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.artikel h6 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+.artikel .row {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.artikel-img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Responsive image styling */
+.artikel-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add more specific styles for different elements as needed */
